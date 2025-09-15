@@ -1,6 +1,6 @@
 <template>
   <div class="flex items-center justify-center">
-    <div class="card w-96 bg-[#F3F4F6] shadow-xl border pb-12">
+    <div class="card w-full max-w-sm bg-[#F3F4F6] shadow-xl border pb-12">
       <div class="mt-8 flex flex-col items-center">
         <h1 class="font-semibold text-2xl mb-4">Bienvenue</h1>
         <span class="mt-4">{{ userName }}</span>

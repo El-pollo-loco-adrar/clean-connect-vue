@@ -42,10 +42,10 @@
 
     <!-- Overlay menu plein écran -->
     <transition name="fade">
-      <div v-if="isMenuOpen" class="absolute top-28 bottom-28 left-0 right-0 bg-[#F3F4F6] bg-opacity-90 flex flex-col items-center justify-center text-white z-50 border-2 border-black rounded-lg mx-12">
+      <div v-if="isMenuOpen" class="absolute top-28 left-0 right-0 bg-[#F3F4F6] bg-opacity-90 flex flex-col items-center justify-center text-white z-50 border-2 border-black rounded-lg mx-12">
 
         <!-- Liens de navigation -->
-        <ul class="space-y-8 text-xl font-bold text-black ">
+        <ul class="space-y-8 text-xl font-bold text-black mt-10">
           <router-link to="/homePart" @click="toggleMenu">
             <li class="border-2 bg-[#3B82F6]/16 rounded-lg p-4 text-center shadow-xl m-8">Mon profil</li>
           </router-link>
