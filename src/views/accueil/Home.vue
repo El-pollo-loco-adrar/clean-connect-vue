@@ -1,11 +1,11 @@
 <template>
-  <div class="flex items-center justify-center">
-    <div class="card w-96 bg-[#F3F4F6] shadow-xl border">
+  <div class="flex items-center justify-center px-4">
+    <div class="card w-full max-w-sm bg-[#F3F4F6] shadow-xl border">
       <div class="card-body">
 
             <!-- logo -->
         <div class="flex justify-center mb-4">
-          <img src="../../../public/Logo.png" alt="Logo" class="h-25" />
+          <img src="../../../public/Logo.png" alt="Logo" class="h-20" />
         </div>
 
         <div class="flex justify-center border-2 bg-[#3B82F6]/16 rounded-lg p-2">
@@ -25,10 +25,10 @@
 
 
         <div class="mt-6 flex flex-col items-center">
-          <button class="btn bg-[#2563EB]/79 w-48 text-white border-2 border-black rounded-lg">Connexion</button>
+          <button class="btn bg-[#2563EB]/79 w-fit px-6 mx-auto text-white border-2 border-black rounded-lg">Connexion</button>
 
-          <button @click="loginPro" class="btn bg-[#2563EB]/79 w-48 text-white border-2 border-black rounded-lg">Connexion pro</button>
-          <button @click="loginPart" class="btn bg-[#2563EB]/79 w-48 text-white border-2 border-black rounded-lg">Connexion part</button>
+          <button @click="loginPro" class="btn bg-[#2563EB]/79 w-fit px-6 mx-auto text-white border-2 border-black rounded-lg">Connexion pro</button>
+          <button @click="loginPart" class="btn bg-[#2563EB]/79 w-fit px-6 mx-auto text-white border-2 border-black rounded-lg">Connexion part</button>
 
           <p class="text-center">Je n'ai pas de compte?<router-link to="/signUp" class="text-center italic underline cursor-pointer"> Je m'inscris</router-link></p>
         </div>

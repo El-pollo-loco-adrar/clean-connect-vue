@@ -5,10 +5,10 @@
 
             <!-- logo -->
         <div class="flex justify-center mb-4">
-          <img src="../../../public/Logo.png" alt="Logo" class="h-25" />
+          <img src="../../../public/Logo.png" alt="Logo" class="h-20" />
         </div>
 
-        <div class="flex justify-center   rounded p-2">
+        <div class="flex justify-center border-2 bg-[#3B82F6]/16 rounded-lg p-2">
           <h2 class="text-3xl font-bold">Inscription</h2>
         </div>
 
@@ -35,9 +35,9 @@
           <label class="text-center text-xl mt-4" for="passwordSignUp">Confirmation du mot de passe</label>
           <input v-model="confirmPassword" class="border bg-[#3B82F6]/16 rounded p-2 mt-4" type="password" id="confirmPasswordSignUp" name="confirmPassword" autocomplete="current-password" required>
 
-          <button type="submit" class="btn bg-[#2563EB]/79 w-48 text-white border-2 border-black rounded-4">Inscription</button>
         </form>
 
+        <button type="submit" class="btn bg-[#2563EB]/79 w-fit px-6 mx-auto text-white border-2 border-black rounded-4">Inscription</button>
 
         <div class="mt-6 flex flex-col items-center">
           
