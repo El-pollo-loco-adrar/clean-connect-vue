@@ -27,6 +27,12 @@ const router = createRouter({
             component: () => import('../views/pro/HomePro.vue'),
             meta: {title: 'Clean Connect - Accueil Pro'}
         },
+        {
+            path: '/addMission',
+            name: 'addMission',
+            component: () => import('../views/pro/addMission.vue'),
+            meta: {title: 'Clean Connect - Ajouter une mission'}
+        },
         //PARTICULIER
         {
             path: '/homePart',

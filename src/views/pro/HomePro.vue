@@ -7,7 +7,7 @@
       </div>
       <div class="grid grid-cols1 min-[360px]:grid-cols-2 gap-6 m-12">
 
-        <router-link to="/homePart" class="border-2 bg-[#3B82F6]/16 text-center rounded-sm shadow-xl flex flex-col items-center justify-center p-8 gap-4">
+        <router-link to="/addMission" class="border-2 bg-[#3B82F6]/16 text-center rounded-sm shadow-xl flex flex-col items-center justify-center p-8 gap-4">
           <div class="flex flex-col items-center gap-2">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10">
               <path stroke-linecap="round" stroke-linejoin="round" d="m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L10.582 16.07a4.5 4.5 0 0 1-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 0 1 1.13-1.897l8.932-8.931Zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0 1 15.75 21H5.25A2.25 2.25 0 0 1 3 18.75V8.25A2.25 2.25 0 0 1 5.25 6H10" />
@@ -16,7 +16,7 @@
           </div>
         </router-link>
 
-        <router-link to="/homePart" class="border-2 bg-[#3B82F6]/16 text-center rounded-sm shadow-xl flex flex-col items-center justify-center p-8 gap-4">
+        <router-link to="/homePro" class="border-2 bg-[#3B82F6]/16 text-center rounded-sm shadow-xl flex flex-col items-center justify-center p-8 gap-4">
           <div class="flex flex-col items-center gap-2">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-10">
               <path d="M19.5 21a3 3 0 0 0 3-3v-4.5a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3V18a3 3 0 0 0 3 3h15ZM1.5 10.146V6a3 3 0 0 1 3-3h5.379a2.25 2.25 0 0 1 1.59.659l2.122 2.121c.14.141.331.22.53.22H19.5a3 3 0 0 1 3 3v1.146A4.483 4.483 0 0 0 19.5 9h-15a4.483 4.483 0 0 0-3 1.146Z" />
@@ -25,7 +25,7 @@
           </div>
         </router-link>
 
-        <router-link to="/homePart" class="border-2 bg-[#3B82F6]/16 text-center rounded-sm shadow-xl flex flex-col items-center justify-center p-8 gap-4">
+        <router-link to="/homePro" class="border-2 bg-[#3B82F6]/16 text-center rounded-sm shadow-xl flex flex-col items-center justify-center p-8 gap-4">
           <div class="flex flex-col items-center gap-2">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-10">
               <path fill-rule="evenodd" d="M8.25 6.75a3.75 3.75 0 1 1 7.5 0 3.75 3.75 0 0 1-7.5 0ZM15.75 9.75a3 3 0 1 1 6 0 3 3 0 0 1-6 0ZM2.25 9.75a3 3 0 1 1 6 0 3 3 0 0 1-6 0ZM6.31 15.117A6.745 6.745 0 0 1 12 12a6.745 6.745 0 0 1 6.709 7.498.75.75 0 0 1-.372.568A12.696 12.696 0 0 1 12 21.75c-2.305 0-4.47-.612-6.337-1.684a.75.75 0 0 1-.372-.568 6.787 6.787 0 0 1 1.019-4.38Z" clip-rule="evenodd" />
@@ -35,7 +35,7 @@
           </div>
         </router-link>
 
-        <router-link to="/homePart" class="border-2 bg-[#3B82F6]/16 text-center rounded-sm shadow-xl flex flex-col items-center justify-center p-8 gap-4">
+        <router-link to="/homePro" class="border-2 bg-[#3B82F6]/16 text-center rounded-sm shadow-xl flex flex-col items-center justify-center p-8 gap-4">
           <div class="flex flex-col items-center gap-2">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10">
               <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
