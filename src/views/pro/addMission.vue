@@ -17,6 +17,8 @@
           placeholder="ex: Nettoyage banque CIC "
         >
 
+        <label class="text-center text-xl mt-4" for="descMission">Description :</label>
+
       </form>
     </div>
   </div>
