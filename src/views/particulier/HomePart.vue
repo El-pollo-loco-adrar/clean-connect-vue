@@ -47,7 +47,7 @@
 <script setup lang='js'>
   import { ref, computed, watch, onMounted, onUpdated, onBeforeUnmount } from 'vue'
 
-  const userName = ref('Test nom')
+  const userName = ref('Test nom particulier')
 </script>
 
 <style scoped lang="css">

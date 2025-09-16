@@ -42,7 +42,7 @@
 
     <!-- Overlay menu plein écran -->
     <transition name="fade">
-      <div v-if="isMenuOpen" class="absolute top-28 bottom-28 left-0 right-0 bg-[#F3F4F6] bg-opacity-90 flex flex-col items-center justify-center text-white z-50 border-2 border-black rounded-lg mx-8">
+      <div v-if="isMenuOpen" class="absolute top-28 left-0 right-0 bg-[#F3F4F6] bg-opacity-90 flex flex-col items-center justify-center text-white z-50 border-2 border-black rounded-lg mx-12">
 
         <!-- Liens de navigation -->
         <ul class="space-y-8 text-xl font-bold text-black ">
